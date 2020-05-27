@@ -1,0 +1,163 @@
+body{
+  	margin: 0px;
+  	padding: 0px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	background: #a1cbda;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+li{
+	float: left;
+}
+li a{
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+  	padding: 20px;
+  	margin: 0;
+  	vertical-align: middle;
+  	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+li a:hover {
+  background-color:silver;
+}
+.logo{
+	width: 260px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 90% auto;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.home{
+	line-height: 58px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 90% auto;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+h1{
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+.contactlogo{
+	width: 340px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-position: right;
+    float: right;
+    background-size: 90% auto;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.certlogo{
+	height:130px;
+	width:290px;
+	float: right;
+}
+.login{
+	float: right;
+  	background-color: #c2ccff;
+  	border: none;
+  	color: black;
+  	text-align: center;
+  	font-size: 16px;
+  	cursor: pointer;
+  	height: 60px;
+  	padding: 0px 25px;
+  	font-weight: bold;
+  	border: none;
+  	outline-style: none;
+}
+.login:hover {
+  background-color: silver;
+}
+.about ul {
+  height: 100%;
+  width: 164px;
+  position: fixed;
+  z-index: 1;
+  top: 218px;
+  left: 0;
+  background-color: #006064;
+  overflow-x: hidden;
+  padding-top: 
+  color:white;
+  margin: 0px;
+  padding: 0px;
+}
+.about ul li a {
+	width: 128px;
+	color:white;
+  	padding: 20px;
+  	text-align: left;
+}
+
+.about li a.active {
+  background-color: white;
+  color: black;
+}
+
+.about li a:hover:not(.active) {
+  background-color:#20B2AA;
+  color: white;
+}
+
+.main{
+	margin-left: 185px;
+	margin-right: 20px;
+	font-size: 22px;
+}
+
+.main h2{
+	margin-top: 13px;
+}
+
+.contact{
+	text-align: center;
+	font-size: 28px;
+	color: black;
+}
+.heading{
+	text-align: center;
+	color: black;
+
+}
+.map{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.side figcaption{
+	float: left;
+	text-align: center;
+	font-size: 20px;
+}
+.side{
+	text-align: center;
+	float: left;
+	margin: 5%;
+	width: 23.3%;
+}
+.icon::after {
+  content: "";
+  clear: both;
+  display: table;
+}
